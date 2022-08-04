@@ -1,6 +1,9 @@
+import Navbar from './Navbar'
+
 export default function Layout({children}) {
 	return (
-		<div className=''>
+		<div className='w-screen'>
+			<Navbar />
 			<main>{children}</main>
 		</div>
 	)
