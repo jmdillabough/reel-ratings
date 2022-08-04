@@ -7,6 +7,9 @@ export default function Home({isConnected}) {
 			<Head>
 				<title>Reel Ratings: Under Construction</title>
 			</Head>
+			<div className='w-screen h-screen flex items-center justify-center  bg-zinc-50-400'>
+				<h1 className='font-semibold text-2xl'>Reel Ratings</h1>
+			</div>
 		</div>
 	)
 }
